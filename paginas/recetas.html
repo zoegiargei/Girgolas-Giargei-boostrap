@@ -25,6 +25,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 
+    <!--Iconos-->
+    <script src="https://kit.fontawesome.com/3bcc264b16.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
@@ -64,15 +67,34 @@
 
         <main class="row">
 
-            <div class="col-lg-10">
+            <div class="col-12 col-lg-2 mt-5 mb-5 recetario">
 
-                <h1 class="display-1">Recetas</h1>
+                <h2 class="display-6 border-bottom">Recetario</h2>
 
-                <div class="accordion mt-4 mb-4" id="accordionExample">
+                <nav>
+                    <ol class="recetas">
+                        <li><a href="#girgolas-a-la-parrilla">Gírgolas a la Parrilla</a></li>
+                        <li><a href="#girgolas-a-la-gabardina">Gírgolas a la Gabardina</a></li>
+                        <li><a href="#girgolas-a-la-plancha">Gírgolas a la Plancha</a></li>
+                        <li><a href="#girgolas-fritas-con-panceta">Gírgolas fritas con Panceta</a></li>
+                        <li><a href="#pollo-con-girgolas">Pollo con Gírgolas</a></li>
+                        <li><a href="#revuelto-de-girgolas-y-langostinos">Revuelto de Gírgolas y Langostinos</a></li>
+                        <li><a href="#girgolas-al-ajo">Gírgolas al Ajo</a></li>
+                        <li><a href="#milanesas-de-girgolas">Milanesas de Gírgolas</a></li>
+                        <li><a href="#tortillas-de-girgolas">Tortillas de Gírgolas</a></li>
+                    </ol>
+                </nav>
+            </div>
+
+            <div class="col-12 col-lg-8">
+
+                <h1 class="display-1 border-bottom">Recetas</h1>
+
+                <div class="accordion mt-4 mb-4 recetas2" id="accordionExample">
 
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="girgolas-a-la-parrilla">
                                 Girgolas a la parrilla
                             </button>
                         </h2>
@@ -99,7 +121,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="girgolas-a-la-gabardina">
                                 Gírgolas a la Gabardina
                             </button>
                         </h2>
@@ -132,7 +154,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id="girgolas-a-la-plancha">
                                 Gírgolas a la Plancha
                             </button>
                         </h2>
@@ -158,7 +180,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" id="girgolas-fritas-con-panceta">
                                 Gírgolas Fritas con Panceta
                             </button>
                         </h2>
@@ -180,7 +202,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFive">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" id="pollo-con-girgolas">
                                 Pollo con Gírgolas
                             </button>
                         </h2>
@@ -214,7 +236,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingSix">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" id="revuelto-de-girgolas-y-langostinos">
                                 Revuelto de Gírgolas y Langostinos
                             </button>
                         </h2>
@@ -240,7 +262,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingSeven">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven" id="girgolas-al-ajo">
                             Gírgolas al Ajo
                         </button>
                         </h2>
@@ -263,7 +285,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingEight">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight" id="milanesas-de-girgolas">
                             Milanesas de Gírgolas
                         </button>
                         </h2>
@@ -288,7 +310,7 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingNine">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine" id="tortillas-de-girgolas">
                             Tortillas de Gírgolas
                         </button>
                         </h2>
@@ -320,11 +342,19 @@
         </main>
         
         <footer class="row">
+
             <div class="col container-fluid bg-dark text-light">
 
-                <div class="row">
-                    <div class="col col-lg-9 mt-2"><p>Derechos reservados <span>Girgola, Earth is Mycelium</span></p></div>
-                    <div class="col col-lg-3 mt-2 justify-content-end"><img src="../imagenes/LOGO.png" class="rounded-circle" style="width: 50px; height: 50px;"></div>
+                <div class="row footer">
+
+                    <div class="col-12 col-lg-5 mt-2 d-flex flex-row justify-content-around">
+                        <img src="../imagenes/LOGO.png" class="rounded-circle me-3">
+                        <p class="mt-3">Diseñado y construido con todo el amor del mundo por el equipo de <span>Girgola, Earth is Mycelium</span></p>
+                    </div>
+
+                    <div class="col-1 col-lg-2 mt-2 redes"><i class="fa-brands fa-instagram fa-2x mt-3"></i></div>
+                    <div class="col-1 col-lg-2 mt-2 redes"><i class="fa-brands fa-facebook-square fa-2x mt-3"></i></div>
+                    <div class="col-1 col-lg-2 mt-2 redes"><i class="fa-brands fa-whatsapp fa-2x mt-3"></i></div>
                 </div>
 
             </div>

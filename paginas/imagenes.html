@@ -24,6 +24,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <!--Iconos-->
+    <script src="https://kit.fontawesome.com/3bcc264b16.js" crossorigin="anonymous"></script>
     
 </head>
 <body>
@@ -59,9 +62,12 @@
 
         <main class="row mainGaleria">
 
-            <h1 class="display-1 mt-3 mb-3">Galeria de imagenes</h1>
+            <div class="col col-lg-10 mb-3 mt-1 p-5 row g-2">
 
-            <div class="mb-3 mt-3 p-5 col col-lg-10 row g-2">
+                <div class="mb-3 col-12 row titulo">   
+                    <h1 class="col-6 display-4 border-bottom">Galeria de imagenes</h1>
+                    <i class="col-6 fa-solid fa-image fa-3x fotos rotate-vert-center"></i>
+                </div>
 
                 <div class="mb-3 col col-md-6 imagen d-flex flex-column justify-content-center">
                     <div class="card align-self-center" style="width: 18rem;">
@@ -122,11 +128,19 @@
         </main>
 
         <footer class="row">
+
             <div class="col container-fluid bg-dark text-light">
 
-                <div class="row">
-                    <div class="col col-lg-9 mt-2"><p>Derechos reservados <span>Girgola, Earth is Mycelium</span></p></div>
-                    <div class="col col-lg-3 mt-2"><img src="../imagenes/LOGO.png" class="rounded-circle" style="width: 50px; height: 50px;"></div>
+                <div class="row footer">
+
+                    <div class="col-12 col-lg-5 mt-2 d-flex flex-row justify-content-around">
+                        <img src="../imagenes/LOGO.png" class="rounded-circle me-3">
+                        <p class="mt-3">Diseñado y construido con todo el amor del mundo por el equipo de <span>Girgola, Earth is Mycelium</span></p>
+                    </div>
+
+                    <div class="col-1 col-lg-2 mt-2 redes"><i class="fa-brands fa-instagram fa-2x mt-3"></i></div>
+                    <div class="col-1 col-lg-2 mt-2 redes"><i class="fa-brands fa-facebook-square fa-2x mt-3"></i></div>
+                    <div class="col-1 col-lg-2 mt-2 redes"><i class="fa-brands fa-whatsapp fa-2x mt-3"></i></div>
                 </div>
 
             </div>
