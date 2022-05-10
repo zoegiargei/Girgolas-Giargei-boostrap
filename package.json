@@ -1,0 +1,20 @@
+{
+  "name": "girgolas-giargei-boostrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+
+    "start": "sass estilos.scss ./css/estilos.css -w --no-source-map -s compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoegiargei/Girgolas-Giargei-boostrap.git"
+  },
+  "author": "Giargei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoegiargei/Girgolas-Giargei-boostrap/issues"
+  },
+  "homepage": "https://github.com/zoegiargei/Girgolas-Giargei-boostrap#readme"
+}

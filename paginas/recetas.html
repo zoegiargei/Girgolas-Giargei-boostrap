@@ -10,8 +10,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    <!--Estilos personales--> <!--Nuestra hoja de estilos siempre tiene que ser llamada por debajo del llamado a boostrap-->
-    <link rel="stylesheet" href="../css/normalize.css">
 
     <!--Font family-->
     <!--font-family principal-->
@@ -28,10 +26,14 @@
     <!--Iconos-->
     <script src="https://kit.fontawesome.com/3bcc264b16.js" crossorigin="anonymous"></script>
 
+
+    <!--Estilos personales--> <!--Nuestra hoja de estilos siempre tiene que ser llamada por debajo del llamado a boostrap-->
+    <link rel="stylesheet" href="../css/estilos.css">
+
 </head>
 <body>
 
-    <div class="container-fluid">
+    <div class="container">
 
         <header class="row">
             <nav class="navbar navbar-expand-lg bg-dark navbar-light menuNav">
@@ -69,9 +71,9 @@
 
             <div class="col-12 col-lg-2 mt-5 mb-5 recetario">
 
-                <h2 class="display-6 border-bottom">Recetario</h2>
+                <h6 class="display-6 border-bottom recetario__h6">Recetario</h6>
 
-                <nav>
+                <nav class="recetario__nav">
                     <ol class="recetas">
                         <li><a href="#girgolas-a-la-parrilla">Gírgolas a la Parrilla</a></li>
                         <li><a href="#girgolas-a-la-gabardina">Gírgolas a la Gabardina</a></li>
@@ -90,7 +92,7 @@
 
                 <h1 class="display-1 border-bottom">Recetas</h1>
 
-                <div class="accordion mt-4 mb-4 recetas2" id="accordionExample">
+                <div class="accordion mt-4 mb-4 recetasII" id="accordionExample">
 
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">

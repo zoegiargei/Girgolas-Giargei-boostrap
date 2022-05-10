@@ -1,0 +1,115 @@
+
+/* Desktop Styles */
+@media only screen and (min-width: 995px) {
+    
+    /*header*/
+    header{
+        .divNav{
+            &__ul{
+                li{
+                    .scale-up-center{
+
+                        transition: 1.5s;
+                        margin-right: 3rem;
+
+                        &:hover{
+
+                            animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+                            background-color: rgba(0, 1, 2, 0.685);
+                        }
+                    }
+
+                    @keyframes scale-down-center {
+
+                        0% {
+                            transform: scale(1);
+                        }
+                        100% {
+                            transform: scale(0.5);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    /*pag index*/
+    .formulario{
+        
+        max-width: 500px;
+        max-height: 500px;
+        background-color: $bgColor;
+        border: $colorDark;
+        border-radius: 15px;
+
+        transition: 0.8s;
+
+        &:hover{
+            transform: translate(300px, 0);
+            z-index: 1000;
+        }
+    }
+
+
+
+    /*pag Galeria de Imagenes*/
+    .imagen {
+
+        &:hover{
+
+            transform: scale(1.5, 1.5);
+            z-index: 1000;
+        }
+    }
+
+    .rotate-vert-center {
+        
+        animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+        animation-delay: 1.5s;
+    }
+
+    @keyframes rotate-vert-center {
+        0% {
+            transform: rotateY(0);
+        }
+        100% {
+            transform: rotateY(360deg);
+        }
+    }
+    
+    
+    
+    /*pag Nosotros*/
+    .rotate-center {
+        
+        -webkit-animation: rotate-center 0.6s ;
+                animation: rotate-center 0.6s ;
+    }
+
+    @-webkit-keyframes rotate-center {
+
+        0% {
+            -webkit-transform: rotate(0);
+                transform: rotate(0);
+        }
+        100% {
+            -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+        }
+    }
+    
+    @keyframes rotate-center {
+        
+        0% {
+        
+            -webkit-transform: rotate(0);
+                transform: rotate(0);
+        }
+        100% {
+            -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+        }
+    }
+}
