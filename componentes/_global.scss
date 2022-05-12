@@ -1,4 +1,5 @@
 
+
 /*BODY*/
 body{
   
@@ -7,9 +8,11 @@ body{
     color: $fontColor;
 }
 
+
 body h1, h2, h3, h4, h5, h6{
     font-family: $fontFamEsp;
 }
+
 
 /*HEADER*/
 .menuNav{
@@ -19,6 +22,7 @@ body h1, h2, h3, h4, h5, h6{
     font-weight: 500;
 }
 
+
 /*Mixins*/
 @mixin circle($width) {
     width: $width;
@@ -26,6 +30,16 @@ body h1, h2, h3, h4, h5, h6{
     border-radius: 100%;
     background: $bgColor;
 }
+
+
+@mixin dflex($fd, $jc, $ai, $ac) {
+
+    flex-direction: $fd;
+    justify-content: $jc;
+    align-items: $ai;
+    align-content: $ac;
+}
+
 
 /*Crear funcion @each o @mixins para asignar font-size font-weight font-family (3 parametros)*/
 /*Crear funcion para display flex (3 parametros flex-direction justify-content aling-items)*/
