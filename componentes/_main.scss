@@ -1,4 +1,5 @@
 
+
 /*MAIN index*/
 .formulario{
     
@@ -8,14 +9,16 @@
     align-items: center;
 }
 
-.inputColor{
 
+.inputColor{
+    
     max-width: 350px;
 
     &:focus{
         background-color: #98d3fb;
     }
 }
+
 
 .card1{
 
@@ -91,6 +94,7 @@
     }
 }
 
+
 .recetasII{
   color: $colorDark;
 }
@@ -112,5 +116,16 @@
 
     .fotos{
         color: $fontColor;
+    }
+}
+
+
+/*MAIN pag n6 registro*/
+/* @EXTEND */
+.registro{
+    div{
+        input{
+            @extend .inputColor;
+        }
     }
 }
