@@ -2,19 +2,33 @@
 /*BODY*/
 body{
   
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: $fontFamGen;
     background-color: $bgColor;
     color: $fontColor;
 }
 
 body h1, h2, h3, h4, h5, h6{
-    font-family: 'Shadows Into Light', cursive;
+    font-family: $fontFamEsp;
 }
 
 /*HEADER*/
 .menuNav{
   
-    font-family: 'Shadows Into Light', cursive;
+    font-family: $fontFamEsp;
     font-size: large;
     font-weight: 500;
 }
+
+/*Mixins*/
+@mixin circle($width) {
+    width: $width;
+    height: $width;
+    border-radius: 100%;
+    background: $bgColor;
+}
+
+/*Crear funcion @each o @mixins para asignar font-size font-weight font-family (3 parametros)*/
+/*Crear funcion para display flex (3 parametros flex-direction justify-content aling-items)*/
+/*Crear funcion para widht y height*/
+/*Crear funcion para determinar margin*/
+/*hacer un recorrido del proyecto para eliminar list-type de los links*/

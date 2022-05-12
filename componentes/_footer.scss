@@ -9,13 +9,12 @@
 
 .footer img{
 
-    max-width: 80px;
-    max-height: 80px;
+    @include circle(80px);
 }
 
 /*footer redes*/
 .redes:hover{
 
     transform: scale(1.2);
-    color: #009E60;
+    color: $colorSec;
 }
